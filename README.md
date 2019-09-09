@@ -1,5 +1,6 @@
 # UtopiaTech
 Assigment Task 
+Pure JavaScript used.
 
 clone or download the submission
 
