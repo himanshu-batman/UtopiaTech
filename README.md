@@ -1,6 +1,10 @@
 # UtopiaTech
 Assigment Task 
 
+clone or download the submission
+
+can't share github hosted link beacause fetch url is used HTTP request for hosting and git used HTTPS
+
 i try my best to complete all the Assigment Task,
 
 insted of google map i used Mapbox Api 
