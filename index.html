@@ -1,0 +1,65 @@
+<!doctype html>
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en"> 
+<head>
+	<meta charset="utf-8">
+	<!-- Setting the viewport for Media Query -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>UtopiaTech | Assignment</title>
+	<!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
+	<link rel="shortcut icon" href="favicon.ico" />	
+	<!-- Adding reference to font awesome -->
+	<link rel="stylesheet" href="assets/vendor/font/fontawesome-all.min.css">
+	<!-- mapbox  -->
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
+	<!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+	<link rel="stylesheet" media="screen" href="assets/css/style.css">
+</head>
+<body>
+
+	<div class="container">
+		<!--Header Starts Here-->
+		<header>	
+		</header>
+		<!--Header Starts Ends-->
+		<!--Main Starts Here-->
+		<main>
+			<div id= "show-data">
+				<table id="table-data">
+					<tr>
+						<th>Panel Name</th>
+						<th>Mac id</th>
+						<th>Lat</th>
+						<th>Long</th>
+						<th>Location</th>
+					</tr>
+				</table>
+				<div id="light-box" >
+					<div id="light-box-content">
+
+						<button id="close-light-box" class="btn"> Back </button>
+						<table id="table-para-data">
+							
+						</table>
+	
+					</div>
+				</div>
+				<div id="light-box-map">
+					<div id="light-box-map-content">
+						<button id="close-light-box-map" class="btn"> Back </button>
+						<div id='map'></div>
+					</div>
+				</div>
+				
+			</div>
+		</main>
+		<!--Main Ends Here-->
+		<!--Footer Starts Here-->
+		<footer>	
+		</footer>
+		<!--Footer Ends Here-->
+		<script src="assets/js/app.js"></script>
+	</div>
+</body>
+</html>
